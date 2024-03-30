@@ -1,0 +1,192 @@
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.header {
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  text-align: left;
+}
+
+.intro p {
+  margin-top: 10px;
+}
+
+
+.profile-pic img {
+  max-width: 110px;
+  border-radius: 50%;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 20px;
+}
+
+.nav-left a {
+  margin-right: 30px; /* Adjust the value as needed */
+}
+
+.nav-right a {
+  margin-right: 20px;
+}
+
+.section {
+  width: 100%;
+  padding: 16px 0px 0px 0px;
+  font-weight: 600
+}
+
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.section h2{
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.education-table th, .education-table td {
+  border: 2px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.skills-list {
+  list-style-type: decimal;
+  padding: 0px 15px;
+}
+
+.nested-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.section {
+  text-align: left;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.hobbies-list{
+  list-style-type: disc;
+  padding: 0px 15px;
+}
+
+.hobbies-list li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.ambitions-list {
+  padding: 0px 15px;
+}
+
+.ambitions-list > li {
+  list-style: disc;
+}
+
+.ambitions-list > li > ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.ambitions-list > li > ul > li {
+  list-style: disc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ambitions-list strong {
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f0f0f0;
+  margin-top: 20px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 0 5px;
+}
+
