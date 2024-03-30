@@ -167,7 +167,7 @@ function App() {
           <p><strong>Email Address:</strong> mughalfahad544@gmail.com</p>
         </div>
         <div className="social-icons">
-        <a href="https://github.com/Offfahad" target="_blank"><img src="github.png" alt="Github" /></a>
+        <a href="https://github.com/offfahad" target="_blank"><img src="github.png" alt="Github" /></a>
           <a href="tel:+923137426256"><img src="whatsapp.png" alt="WhatsApp" /></a>
           <a href="https://web.facebook.com/Officialofffahad" target="_blank"><img src="facebook.png" alt="Facebook" /></a>
           <a href="https://www.instagram.com/offfahad" target="_blank"><img src="instagram.jpeg" alt="Instagram" /></a>
